@@ -1545,6 +1545,7 @@ login page
 */
 
 .login-popular-categories {
+  height: 10000px;
   margin-top: 120px;
   direction: rtl;
 }
@@ -1572,7 +1573,6 @@ login page
 .login-popular-categories .naccs .col-lg-9 .col-lg-5 {
   width: 100%;
 }
-
 
 .login-popular-categories .naccs .col-lg-3 .menu {
   margin-right: 10px;
@@ -1661,9 +1661,9 @@ login page
 }
 
 .registration-wrapper {
-  position: relative;
+  margin-top: 10px;
   max-width: 430px;
-  width: 100%;
+  width: 80%;
   background: #fff;
   padding: 34px;
   border-radius: 6px;
