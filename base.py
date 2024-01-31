@@ -1,4 +1,3 @@
-import mysql.connector
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -31,14 +30,26 @@ def buy():
     return render_template('buy-home.html')
 
 
+@app.route("/buy-home-details")
+def buy_home_details():
+    return render_template('buy-home-details.html')
+
+
 @app.route("/agency")
 def agency():
     return render_template('agency.html')
 
 
+@app.route("/advertisement")
+def advertisement():
+    return render_template('advertisement.html')
+
+
 @app.route("/")
 def login_page():
-    return render_template('login.html')
+    return render_template('index.html')
+
+
 
 
 
